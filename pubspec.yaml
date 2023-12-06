@@ -1,0 +1,28 @@
+name: wastegram
+description: A new Flutter project.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.4.3
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.10
+  image_picker: ^0.8.4+4
+  intl: ^0.17.0
+  location: ^4.2.0
+  firebase_storage: ^11.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
